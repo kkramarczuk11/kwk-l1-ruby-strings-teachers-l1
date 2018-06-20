@@ -2,14 +2,18 @@
 puts "Hi, you've been invited to a party! What is your name?"
 
 guest_name = gets.chomp
+puts "party name"
 party_name = gets.chomp
+puts "date"
 date = gets.chomp
+puts "time"
 time = gets.chomp
+puts "host"
 host_name = gets.chomp
 # Try starting out with puts'ing a string.
 puts "Dear #{guest_name},
  
-You are cordially invited to the #{party_name} on #{date} at #{time}. Please RSVP no later than #{date}.
+You are cordially invited to the #{party_name} on #{date} at #{time}. Please RSVP no later than #{date - 1}.
  
 Sincerely,
  
