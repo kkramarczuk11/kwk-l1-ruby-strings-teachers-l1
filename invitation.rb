@@ -7,4 +7,4 @@ date = gets.chomp
 time = gets.chomp
 host_name = gets.chomp
 # Try starting out with puts'ing a string.
-puts "Hi, you've been invited to a party! What is your #{name}?
+#puts "Hi, you've been invited to a party! What is your #{name}?
