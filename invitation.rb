@@ -7,3 +7,4 @@ date = gets.chomp
 time = gets.chomp
 host_name = gets.chomp
 # Try starting out with puts'ing a string.
+puts 
